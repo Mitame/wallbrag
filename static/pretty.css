@@ -1,0 +1,41 @@
+.container {
+  width: 70%;
+  padding: 0% 15%;
+}
+
+img {
+  max-width: 128px;
+  /*height: 256px;*/
+  vertical-align: middle;
+}
+
+.image-container {
+  height: 128px;
+  vertical-align: middle;
+}
+
+.image-padder{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.image, .directory {
+  height: 128px;
+  width: 128px;
+  float: left;
+  padding: 5px;
+}
+
+.directory .image-container {
+  height: 128px
+}
+
+.directory .image-container img {
+  max-height: 64px
+}
+
+.title {
+  width: 100%;
+  word-break: break-all;
+}
